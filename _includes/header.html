@@ -5,14 +5,24 @@
     <nav class="site-nav">
 
       <div class="trigger">
-        <!-- {{ site.title }} instead of blog -->
-<!--         <a class="page-link" href="{{ site.baseurl }}/">blog</a> -->
 
+        {% comment %}
+        <!-- Blog link (if we have a blog) -->
+         <a class="page-link" href="{{ site.baseurl }}/">blog</a> 
+        <!-- Default page display (alphabetical order) -->
         {% for page in site.pages %}
           {% if page.title %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
-        {% endfor %}
+        {% endfor %} 
+        {% endcomment %}
+
+        {% comment %} 
+        We're hard coding the links because we want to change the order
+        {% endcomment %}
+        <a class="page-link" href="/architecture/">architecture</a>
+        <a class="page-link" href="/photography/">photography</a>
+        <a class="page-link" href="/about/">about</a>
 
       </div>
     </nav>
