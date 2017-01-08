@@ -19,9 +19,9 @@ paginate_path: "/blog/page:num/"
 
 
 collections:
-  portfolio:
+  architecture:
     output: true
-    permalink: /portfolio/:path/
   poetry:
+    permalink: /architecture/:path/
     output: true
     permalink: /poetry/:path/
