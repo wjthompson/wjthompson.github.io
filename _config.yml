@@ -21,7 +21,7 @@ paginate_path: "/blog/page:num/"
 collections:
   architecture:
     output: true
-  poetry:
     permalink: /architecture/:path/
+  photography:
     output: true
-    permalink: /poetry/:path/
+    permalink: /photography/:path/
