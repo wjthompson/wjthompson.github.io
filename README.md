@@ -1,11 +1,10 @@
-# *folio
+# wesleyjthompson.com 
+
+Based on [-folio](https://github.com/bogoli/-folio)
+
 A simple theme for showcasing your work, emphasis on whitespace, transparency, and helvetica. 
 
-
-<a href="http://liabogoev.com/-folio">Live Demo</a>
-
 <hr/>
-
 
 ## Features
 
